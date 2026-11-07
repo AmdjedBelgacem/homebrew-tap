@@ -5,7 +5,9 @@ the MacBook notch as a Dynamic-Island-style surface for coding agents, music,
 calls and your day.
 
 ```bash
-brew install --cask AmdjedBelgacem/tap/notchisland
+brew tap AmdjedBelgacem/tap
+brew trust AmdjedBelgacem/tap   # newer Homebrew asks before loading third-party taps
+brew install --cask notchisland
 ```
 
 Upgrade with `brew upgrade --cask notchisland`. Releases are not notarized yet:
